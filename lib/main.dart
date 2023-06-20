@@ -21,18 +21,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text("Hi people I am Lakshman",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'DancingScript',
-          ),
-        ),
+        child: Image(
+          image: AssetImage('images/img.png'),
+        )
       ),
       floatingActionButton: FloatingActionButton(onPressed: null,
-        child: Text("Click me"),
+        child: Text("Click"),
         backgroundColor: Colors.indigoAccent,
       ),
     );
