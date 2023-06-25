@@ -1,2 +1,2 @@
 # Learning Flutter
-Project made while learning flutter
+A simple Project made while learning flutter
